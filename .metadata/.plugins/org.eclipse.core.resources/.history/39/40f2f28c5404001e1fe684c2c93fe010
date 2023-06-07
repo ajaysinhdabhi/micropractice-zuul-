@@ -1,0 +1,8 @@
+zuul.routes.user_service.path=/doctor-api/**
+zuul.routes.user_service.url=http://localhost:9001/
+zuul.routes.contact_service.url=http://localhost:9002/contact/user
+
+ribbon.eureka.enabled=false
+
+
+server.port=8777

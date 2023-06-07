@@ -1,0 +1,18 @@
+server:
+  port: 8777
+#  
+spring:
+  application:
+    name: zuul-service
+#    
+#zuul:
+#  prefix: /api
+#  routes:
+#    welcome:
+#      path: /user/**
+#      service-id: user-service
+#    myhome:
+#      path: /contact/**
+#      service-id: contact-service  
+#    
+        

@@ -1,0 +1,20 @@
+#server:
+#  port: 8999
+#
+#spring:
+#  cloud:
+#    gateway:
+#      enabled: true
+#
+## Configure Zuul routes
+#zuul:
+#  routes:
+#    my-service:
+#      path: /node-service/**
+#      service-id: node-service
+#
+## Configure Eureka Client
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://192.168.2.79:8761/eureka/
